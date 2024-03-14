@@ -1,0 +1,25 @@
+{
+  "name": "@moon-cn/lang",
+  "version": "1.0.0-beta.10",
+  "private": false,
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "prepare": "npm config set registry https://registry.npmjs.org/",
+    "publish:beta": "npm publish --tag beta --access=public"
+  },
+  "peerDependencies": {
+    "axios": "^1.6.7",
+    "qs": "^6.11.2"
+  },
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/moon_cn/web-lang.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+
+  }
+}
